@@ -24,6 +24,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
         private Mock<ContextoLibreria> CrearContexto()
         {
+            //Foo comment
             var dataPrueba = ObtenerDataDePrueba().AsQueryable();
 
             var dbSet = new Mock<DbSet<LibreriaMaterial>>();
